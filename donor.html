@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Donors List</title>
+    <link rel="stylesheet" href="donor.css">
+</head>
+<body>
+    <body>
+        <nav class="navbar">
+            <img src="download.png" class="lob" onclick="openNewPageHome()">
+            <div class="logo">શ્રી શિવ શેવા ગૌશાળા ટ્રસ્ટ<br><a id="gam">ખોરડા</a></div>
+            <ul>
+                <li><a href="abt.html">Home</a></li>
+                <li><a href="sv.html">Team</a></li>
+                <li><a href="donor.html">Our Donars</a></li>
+                <li><a href="donate.html">Donate here</a></li>
+                <li><a href="cont.html">Contact Us</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        
+        <div class="header">
+            <h1>અમારા ઉદાર દાતાઓની ઉજવણી કરો</h1>
+            <p>દાતાશ્રીઓ નો ખૂબ ખૂબ આભાર!!</p>
+        </div>
+    
+        <div class="container">
+            <h2>Our Donors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sr. No.</th>
+                        <th>દાતાશ્રી નુ નામ</th>
+                        <th>Purpose for Donation</th>
+                        <th>Amount (₹)</th>
+                    </tr>
+                </thead>
+                <tbody id="donorTable">
+                    <!-- Table rows will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="balloons">
+            <!-- Balloons will be animated using CSS -->
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+        </div>
+        <div class="bottom-navbar">
+            <div class="nav-section">
+                <a href="abt.html" class="nav-item">
+                    <i class="fas fa-home"></i><span class="nav-text">Home</span>
+                </a>
+                <a href="sv.html" class="nav-item">
+                    <i class="fa-solid fa-people-group"></i><span class="nav-text">Our Team</span>
+                </a>
+                <a href="donor.html" class="nav-item">
+                    <i class="fas fa-hand-holding-heart"></i><span class="nav-text">Donors</span>
+                </a>
+                <a href="cont.html" class="nav-item">
+                    <i class="fas fa-envelope"></i><span class="nav-text">Contact Us</span>
+                </a>
+            </div>
+        
+            <div class="nav-section">
+                <div class="contact-info">
+                    <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 College Road, City, State</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        
+            <div class="nav-section copyright">
+                <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+            </div>
+        </div>
+    
+        <!-- Krishna Doodle -->
+        <img src="krishna2.png" alt="Krishna with Cow" class="krishna-doodle">
+    
+    <script src="donor.js"></script>
+</body>
+</html>
